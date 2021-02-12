@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-gray-900 ">
+  <header class="bg-gray-800 shadow-md">
+    <div class="mx-auto my-0 lg:w-10/12">
+      <nav class="flex items-center justify-between py-4">
+        <div class="w-16 h-16 ml-2 bg-red-300 rounded-full">
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold text-center text-white lg:text-5xl">Josh's Workout</h1>
+        </div>
+        <ul class="flex flex-col text-right lg:justify-around lg:flex-row lg:text-left">
+          <li class="mr-2 text-2xl text-white lg:mx-6"><a href="#">Home</a></li>
+          <li class="mr-2 text-2xl text-blue-500 lg:mx-6"><a href="#">Workouts</a></li>
+          <li class="mr-2 text-2xl text-blue-500 lg:mx-6"><a href="#">Progress</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="">
+    <section class="w-10/12 pb-4 mx-auto mt-6 border-b-2 border-gray-700">
+      <div class="mx-auto my-0 lg:flex lg:justify-between lg:flex-row ">
+        <div class="w-1/2 mx-auto lg:mx-0">
+          <img class="w-2/3 mx-auto" src="/img/push_muscle_group.jpg" alt=""></div>
+        <div class="w-1/2 mx-auto lg:mx-0">
+          <h2 class="my-3 text-3xl font-bold text-center text-white underline lg:text-left lg:mt-0">Push Workout</h2>
+          <p class="text-center text-white lg:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ratione. Explicabo ratione placeat ab suscipit, assumenda praesentium natus earum nulla porro ducimus consequatur consectetur aut expedita id repellendus qui laudantium.</p>
+          <div class="flex justify-center lg:justify-start">
+            <button class="w-40 h-8 my-4 mt-8 font-semibold text-center bg-yellow-400 rounded-full hover:bg-yellow-300 lg:right-0">
+              <a href="#">Push Workouts</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="w-10/12 mx-auto mt-6">
+      <img src="/img/pull_muscle_groups.jpg" class="w-5/12" alt="">
+    </section>
+  </main>
+</body>
+</html>
